@@ -1,0 +1,76 @@
+body {
+    background-color: #111b21;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+#contenedor {
+    width: calc(100vw - 80px);
+    height: calc(100vh - 38px);
+    margin: 19px 40px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+}
+
+#izquierdo {
+
+    background-color: burlywood;
+}
+
+    .contenedorHeaderContactos {
+        width: calc(100%-32px);
+        height: 40px;
+        background-color: #202c33;
+        padding: 10px 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+        #icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+
+
+    #contenedorFiltro {
+        width: calc(100%-32px);
+        height: 50px;
+        background-color: #111b21;
+        padding: 0px 0px 0px 12px;
+        display: flex;
+
+    }
+
+
+    #contenedorChats {
+        width: calc(100%-32px);
+        height: 50px;
+        background-color: rebeccapurple;
+    }
+        #barrabusqueda {
+            width: calc(100%-32px);
+            height: 50px;
+            background-color: cornsilk;
+}
+
+
+
+
+#derecho {
+
+    background-color: red;
+}
+
+#fotoperfil {
+    border-radius: 50%;
+
+}
