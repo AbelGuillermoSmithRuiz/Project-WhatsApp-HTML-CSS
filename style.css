@@ -42,33 +42,119 @@ body {
 
 
     #contenedorFiltro {
-        width: calc(100%-32px);
+        width: calc(100%-24px);
         height: 50px;
         background-color: #111b21;
         padding: 0px 0px 0px 12px;
         display: flex;
 
     }
-
-
-    #contenedorChats {
-        width: calc(100%-32px);
-        height: 50px;
-        background-color: rebeccapurple;
-    }
         #barrabusqueda {
-            width: calc(100%-32px);
-            height: 50px;
-            background-color: cornsilk;
-}
+            width: calc(100%-24px);
+            height: 30px;
+            padding: 0px 0px 0px 12px;        
+            background-color: #202c33;
+            
+
+
+            margin: 5px;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+    #contenedorChat1 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }
+    #contenedorChat2 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }
+    #contenedorChat3 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }
+    #contenedorChat4 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }
+    #contenedorChat5 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }
+    #contenedorChat6 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }#contenedorChat7 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }#contenedorChat8 {
+        width: calc(100%-32px);
+        height: 55px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        color: #8696a0;
+        display: flex;
+    }   
+
 
 
 
 
 #derecho {
 
-    background-color: red;
+    background-color: #202c33;
 }
+
+
+    #dentroDeChat{
+        width: calc(100%-32px);
+        height: 40px;
+        padding: 10px 16px;
+        background-color: #111b21;
+        padding: 0px 0px 0px 12px;
+        display: flex;
+    }
+
+    
+    #header-bajo{
+        float: calc(100%-32px);
+        padding: 10px 16px;
+        background-color: 111b21;
+    }
+    
 
 #fotoperfil {
     border-radius: 50%;
